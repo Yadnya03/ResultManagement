@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="grey">#eeefee</color>
+    <color name="black">#191819</color>
+    <color name="white">#f7f6f9</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPur">#983CFF</color>
+    <color name="colorPurleT">#64983cff</color>
+    <color name="colorBle">#2FB4FF</color>
+    <color name="colorBueT">#642fb4ff</color>
+    <color name="succesgreen">#29CC30</color>
+    <color name="RecylerViewBackground">#d6d6d6</color>
+
+    <color name="colorPurple">#941322</color>
+    <color name="colorPurpleT">#FDFC001C</color>
+    <color name="colorBlue">#4285F4</color>
+    <color name="colorBlueT">#F3F3334E</color>
+    <color name="successgreen">#29CC30</color>
+    <color name="RecyclerViewBackground">#d6d6d6</color>
+    <color name="coupenPurple">#3606b6</color>
+    <color name="coupenRed">#ff3030</color>
+    <color name="themecolor">#6a961f</color>
+
+
+
+
+    <color name="colorPrimary">#03265F</color>
+    <color name="colorPrimaryDark">#CE0000</color>
+</resources>

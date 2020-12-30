@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ViewResult">
+
+
+    <EditText
+        android:id="@+id/resmothername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Enter Mother Name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/resseatno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Enter Seat No"
+        android:inputType="textPersonName"
+         />
+
+    <Button
+        android:id="@+id/showresult"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="Show Result"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/rounded_rec"
+        android:layout_gravity="center"
+         />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            >
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Student Name:"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/studname"
+            android:layout_marginStart="27dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="Student Name:"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Mother's Name:"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/moname"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="Mother's Name"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Seat No:"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/seno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:hint="Seat No"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Subject 1:"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/sub1"
+            android:layout_marginStart="65dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="Subject 1 Marks"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Subject 2:"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/sub2"
+            android:layout_marginStart="65dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="Subject 2 Marks"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Subject 3:"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/sub3"
+            android:layout_marginStart="65dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="Subject 3 Marks"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Subject 4:"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/sub4"
+            android:layout_marginStart="65dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="Subject 4 Marks"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Subject 5:"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/sub5"
+            android:layout_marginStart="65dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="Subject 5 Marks"
+            android:textSize="20sp"/>
+    </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                >
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Percentage:"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/percent2"
+                    android:layout_marginStart="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:hint="Percentage"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                >
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Result:"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/result1"
+                    android:layout_marginStart="95dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:hint="Result"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
